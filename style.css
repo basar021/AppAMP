@@ -1,0 +1,429 @@
+body,h1,h2,h3,h4,h5,h6{
+  font-family: 'Work Sans', sans-serif;
+}
+img{
+  max-width: 100%;
+}
+.min-section-bg{
+  background: #f3f4f7;
+}
+
+/* =============================== nav-section =========================================== */
+nav{
+  background: #fff;
+}
+.bashar-header i{
+  display: inline-block;
+  background: #6278df;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 10px;
+  font-size: 28px;
+  position: relative;
+  box-shadow:2.5px 4.33px 30px 0 #6278df;
+}
+
+.bashar-header .navbar-brand{
+  font-size: 32px;
+  color: rgb(10, 10, 94);
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  transition: .5s;
+}
+.bashar-header .navbar-brand:hover{
+  color: rgb(10, 10, 94, 0.3);
+}
+
+.bashar-menu .nav-link{
+  color: rgb(10, 10, 94);
+  font-size: 18px;
+}
+.bashar-menu .nav-link{
+  padding: 0 15px !important;
+  color: rgb(10, 10, 94) !important;
+
+}
+.bashar-menu .nav-link:hover{
+  color: #ff0000 !important;
+  transition: 0.5s;
+}
+.second-step-hover .dropdown-item{
+  background: #262626;
+  color: #fff;
+  width: 180px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.second-step-hover .dropdown-item:hover{
+  background: #5ba533;
+  color: #fff !important;
+  transition: 0.5s;
+}
+.bashar-menu .nav-item{
+  color: rgb(7, 7, 78) !important;
+  font-weight: 500 !important;
+}
+.btn0{
+  padding: 7px 27px;
+  color: #6278df;
+  border: 2px solid #6278df;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn0:hover{
+  background: #6278df;
+  color: #fff;
+  box-shadow:2.5px 4.33px 30px 0 #6278df;
+}
+
+/* =============================== slider-section =========================================== */
+
+.slider-section{
+  background: url(Image/back_.jpg) no-repeat center center;
+  padding:180px 0;
+  position: relative;
+  z-index: 1;
+}
+.slider-section::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+.slider-caption h2{
+  margin-bottom: 35px;
+}
+.slider-caption h1{
+  font-size: 52px;
+  margin-bottom: 50px;
+}
+.slider-caption .btn{
+  background: #5ba533;
+  border: 2px solid #5ba533;
+  padding: 15px 30px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.slider-caption .btn:hover{
+  background: #fff;
+  color: #6278df;
+  border-color: #6278df;
+  box-shadow:2.5px 4.33px 30px 0 #6278df;
+}
+.slider-caption .form-control{
+  padding: 18px 30px;
+  border-color: #5ba533;
+}
+.slider-caption .form-control:hover{
+  padding: 18px 30px;
+  border-color:solid #6278df;
+  box-shadow:2.5px 4.33px 30px 0 #6278df;
+}
+
+
+/* =============================== number-counter =========================================== */
+
+.number-counter-item h2{
+  font-size: 50px;
+}
+.number-counter-item p{
+  font-size: 20px;
+}
+
+/* =============================== about-section =========================================== */
+
+.about-text-left{
+  margin-top: 80px;
+  padding-right: 60px;
+}
+.about-text-left h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+.about-text-left .lead{
+  font-size: 20px;
+  text-align: justify;
+  line-height: 2.7rem;
+}
+
+/* =============================== feature-section =========================================== */
+
+.feature-header h2{
+  font-size: 40px;
+  font-weight: 500;
+}
+.feature-item{
+  height: 300px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.15);
+}
+.left-img-sec{
+  width: 40%;
+  overflow: hidden;
+  border-radius: 5px 0 0 5px;
+}
+.left-img-sec img{
+  height: 100%;
+  width: auto !important;
+  max-width: inherit;
+  position: relative;
+  left: -80px;
+}
+.right-text-sec{
+  width: 60%;
+  padding: 25px;
+}
+
+/* =============================== portolio-section =========================================== */
+
+.portolio-section h1{
+  font-size:40px;
+  font-weight: 500;
+}
+.portolio-item a{
+  display: block;
+  position: relative;
+  margin-bottom: 25px;
+}
+.portolio-item a::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(98, 120, 223,.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+}
+.portolio-item:hover a::after{
+  background: rgba(98, 120, 223,.6);
+  opacity: 1;
+  visibility: visible;
+  transition: .5s;
+}
+
+/* =============================== plan-section =========================================== */
+
+.plan-head h2{
+  font-size: 40px;
+  font-weight: 500;
+}
+.plan-card-item{
+  background: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+
+.plan-card-item ul{
+  margin: 0;
+  padding: 0;
+}
+.plan-card-item ul li{
+  color: #777;
+  margin: 20px 0 ;
+  font-size: 20px;
+}
+.plan-card-item ul li span{
+  display: inline-block;
+  color: #657be0;
+  font-size: 25px;
+  width: 45px;
+  font-weight: bold;
+}
+.plan-item-button a{
+  border:2px solid #fff;
+  color: #657be0;
+  border-width: 2px;
+  padding: 14px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+  transition: .5s;
+}
+
+.plan-card-item:hover a{
+  background: #6278df;
+  color: #fff;
+  border:2px solid #6278df;
+  box-shadow:2.5px 4.33px 30px 0 #6278df;
+}
+
+/* =============================== feedback-section =========================================== */
+
+.feedback-item h2{
+  font-size: 40px;
+  font-weight: 500;
+}
+.feedback-item span{
+  font-size: 95px;
+  opacity: .1;
+}
+
+.user-info{
+  width: 220px;
+  margin: auto;
+}
+.user-info img{
+  width: 80px;
+  margin-right: 18px;
+}
+.user-details{
+  text-align: left;
+  position: relative;
+  top: 10px;
+}
+
+/* =============================== team-section =========================================== */
+
+.about-team .card{
+  margin-top: 100px;
+  padding: 15px;
+}
+.about-team .card img{
+  width: 130px;
+  height: auto;
+  margin: -80px 0 0 12px;
+}
+.about-team a{
+  box-shadow:2.5px 4.33px 30px 0 rgb(180, 176, 176);
+}
+.about-team a:hover{
+  color: #fff;
+  background: #6278df;
+}
+
+/* =============================== form-section =========================================== */
+
+.form-head h2{
+  font-size: 40px;
+  font-weight: 500;
+}
+.form-item .card{
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+  padding: 50px;
+}
+.form-item input{
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+  padding: 20px 30px;
+}
+.form-item input:hover{
+  box-shadow: 2.5px 4.33px 20px 0 #6278df;
+}
+.form-item textarea{
+  min-height: 150px;
+}
+.form-item textarea:hover{
+  box-shadow: 2.5px 4.33px 20px 0 #6278df;
+}
+
+
+.form-item .btn{
+  background: #6278df;
+  border: 2px solid #6278df;
+  padding: 12px 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.form-item .btn:hover{
+  background: #fff;
+  color: #6278df;
+  border:2px solid #6278df;
+  box-shadow:2.5px 4.33px 30px 0 #6278df;
+}
+
+/* =============================== phone-section =========================================== */
+
+.phone-head h2{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.left-button-sec a{
+  background: #fff;
+  color: #5ba533;
+  border: 2px solid #5ba533;
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.left-button-sec a:hover{
+  border: 2px solid #5ba533;
+  background: #5ba533;
+  box-shadow:2.5px 4.33px 30px 0 #5ba533;
+}
+.right-button-sec a{
+  background: #5ba533;
+  color: #fff;
+  border: 2px solid #5ba533;
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  box-shadow:2.5px 4.33px 30px 0 #5ba533;
+}
+.right-button-sec a:hover{
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+  box-shadow:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
